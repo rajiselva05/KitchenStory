@@ -1,0 +1,73 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10;
+  }
+  
+  li a{
+    height: 28rem;
+    width: 29rem;
+    border: 4px solid black;
+    border-radius:1rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction:column;
+    overflow: hidden;
+    /* color: #e72929; */
+  }
+  li a img{
+    object-fit: cover;
+    height: 15rem;
+  }
+  li a :hover{
+    opacity:0.8;
+    
+  }
+  .content{
+    position:relative;
+   text-align: left;
+  }
+  .favourite{
+    position: absolute;
+     top:.5rem;
+    right: 1rem;
+    font-size: 2rem;
+  }
+  .favourite.not{
+    color: black;
+  }
+  .name{
+    text-decoration: none;
+    font-style:bold;
+    font-size:30px;
+    font-weight:600;
+    font-size: 2.2rem
+  }
+  .stars{
+    position: relative;
+    font-size: 5rem;
+    margin-right: 2rem;
+  }
+  .offer{
+    font-style: bold;
+    font-size: 25px;
+    font-weight: 600;
+    font-size: 2.2rem;
+  }
+  .price{
+    font-style: bold;
+    font-size: 25px;
+    font-weight: 600;
+    font-size: 2.2rem;
+  }
+  span button{
+    margin-right:0.5rem;
+  }
+  .nav-brand span{
+    font-size: large;
+    font-weight: 500;
+    font-style: bold;
+  }
